@@ -1,0 +1,31 @@
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+AlignAfterOpenBracket: false
+BreakAfterOpenBracketFunction: true
+BreakBeforeCloseBracketFunction: true
+
+ContinuationIndentWidth: 4
+BreakBeforeBraces: Attach
+BinPackArguments: false
+BinPackParameters: false
+AllowShortFunctionsOnASingleLine: Inline
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+IndentCaseLabels: true
+
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+PointerAlignment: Right
+ReferenceAlignment: Right
+
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex:           '^<.*>'
+    Priority:        1
+  - Regex:           '^".*sys/.*"'
+    Priority:        2
+  - Regex:           '^".*"'
+    Priority:        3
